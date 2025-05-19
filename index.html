@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -8,57 +7,61 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Loja de Roupas Agrinho</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Novidades</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Infantil</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Loja de Roupas Agrinho</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <section class="destaque">
-            <div class="destaque-texto">
-                <h2>Nova Coleção Primavera-Verão</h2>
-                <p>As últimas tendências da moda com inspiração no campo!</p>
-                <a href="#" class="botao">Confira Agora</a>
-            </div>
-            <img src="https://via.placeholder.com/600x400?text=Cole%C3%A7%C3%A3o+Destaque" alt="Coleção Destaque">
-        </section>
+        <main>
+            <section id="destaque-principal">
+                <div class="destaque-info">
+                    <h2>Coleção Exclusiva Agrinho</h2>
+                    <p>Descubra peças únicas inspiradas na beleza do campo e na vida rural.</p>
+                    <a href="#" class="call-to-action">Ver Coleção</a>
+                </div>
+                <div class="destaque-imagem">
+                    <img src="https://via.placeholder.com/600x400?text=Cole%C3%A7%C3%A3o+Exclusiva" alt="Coleção Exclusiva">
+                </div>
+            </section>
 
-        <section class="produtos">
-            <h2>Nossos Produtos</h2>
-            <div class="lista-produtos">
-                <div class="produto">
-                    <img src="https://via.placeholder.com/200x250?text=Produto+1" alt="Produto 1">
-                    <h3>Camiseta Algodão Orgânico</h3>
-                    <p class="preco">R$ 49,90</p>
-                    <button class="botao-comprar">Comprar</button>
+            <section id="catalogo-produtos">
+                <h2>Nosso Catálogo</h2>
+                <div class="grid-produtos">
+                    <div class="card-produto">
+                        <img src="https://via.placeholder.com/200x250?text=Produto+A" alt="Produto A">
+                        <h3>Blusa Confortável</h3>
+                        <p class="preco">R$ 55,00</p>
+                        <button class="botao-compra">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="card-produto">
+                        <img src="https://via.placeholder.com/200x250?text=Produto+B" alt="Produto B">
+                        <h3>Calça Sarja Premium</h3>
+                        <p class="preco">R$ 95,00</p>
+                        <button class="botao-compra">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="card-produto">
+                        <img src="https://via.placeholder.com/200x250?text=Produto+C" alt="Produto C">
+                        <h3>Vestido Estampado</h3>
+                        <p class="preco">R$ 80,00</p>
+                        <button class="botao-compra">Adicionar ao Carrinho</button>
+                    </div>
                 </div>
-                <div class="produto">
-                    <img src="https://via.placeholder.com/200x250?text=Produto+2" alt="Produto 2">
-                    <h3>Calça Jeans Sustentável</h3>
-                    <p class="preco">R$ 89,90</p>
-                    <button class="botao-comprar">Comprar</button>
-                </div>
-                <div class="produto">
-                    <img src="https://via.placeholder.com/200x250?text=Produto+3" alt="Produto 3">
-                    <h3>Vestido Floral Campestre</h3>
-                    <p class="preco">R$ 79,90</p>
-                    <button class="botao-comprar">Comprar</button>
-                </div>
-                </div>
-        </section>
-    </main>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; 2025 Loja de Roupas Agrinho - Todos os direitos reservados.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 Loja de Roupas Agrinho - Celebrando a vida no campo com estilo.</p>
+        </footer>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
